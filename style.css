@@ -58,6 +58,7 @@ html::-webkit-scrollbar-thumb{
     color: var(--black);
     font-size: 2rem;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .header .navbar a{
@@ -504,7 +505,7 @@ section{
 
 } 
 
-@media (max-wifth:600px){
+@media (max-width:600px){
     html{
         font-size: 50%; 
     }
